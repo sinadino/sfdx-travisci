@@ -1,5 +1,5 @@
 public with sharing class hello {
     public hello() {
-        Syste.debug('Hello yaml ');
+        System.debug('Hello yaml ');
     }
 }
