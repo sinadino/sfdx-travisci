@@ -15,7 +15,7 @@ If any any of these assumptions aren't true, the following steps won't work.
 
 1) Make sure you have the Salesforce CLI installed. Check by running `sfdx force --help` and confirm you see the command output. If you don't have it installed you can download and install it from [here](https://developer.salesforce.com/tools/sfdxcli).
 
-2) Confirm you can perform a JWT-based auth: `sfdx force:auth:jwt:grant --clientid <your_consumer_key> --jwtkeyfile server.key --username <your_username> --setdefaultdevhubusername`
+2) Confirm you can perform a JWT-based auth: `sfdx force:auth:jwt:grant --clientid 3MVG9fMtCkV6eLhdwkaqws3kj8W5CMf2tSPfNTE07DMGB4qH6Tczy3eVlg45UaEpIqPUdURhJOV5zAfRVb9NT --jwtkeyfile server.key --username cristiano-sinadino@pluralsight.com --setdefaultdevhubusername`
 
    **Note:** For more info on setting up JWT-based auth see [Authorize an Org Using the JWT-Based Flow](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_jwt_flow.htm) in the [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev).
 
