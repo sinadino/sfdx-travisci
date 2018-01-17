@@ -24,5 +24,3 @@ script:
 - sfdx force:org:delete -u ciorg -p
 
 
-sfdx force:auth:jwt:grant --clientid 3MVG9fMtCkV6eLhdwkaqws3kj8W5CMf2tSPfNTE07DMGB4qH6Tczy3eVlg45UaEpIqPUdURhJOV5zAfRVb9NT --jwtkeyfile cd ..
- --username cristiano-sinadino@pluralsight.com --setdefaultdevhubusername -a HubOrg
