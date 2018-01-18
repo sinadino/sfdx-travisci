@@ -3,7 +3,7 @@ public with sharing class hello {
         System.debug('Hello yaml ');
     }
 
-      public static void sum(int a, int b) {
+      public static void sum(Integer a, Integer b) {
         System.debug('Sum is ' + (a + b));
     }
 }
