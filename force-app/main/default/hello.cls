@@ -4,6 +4,6 @@ public with sharing class hello {
     }
 
       public static void sum(Integer a, Integer b) {
-        System.debug('Sum is ' + (a + b));
+       // System.debug('Sum is ' + (a + b));
     }
 }
